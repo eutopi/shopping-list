@@ -1,4 +1,8 @@
-# Shopping list
+# Shopping List
+
+
+
+A simple, no-hassle shopping list application that supports adding and editing items, easy checklist, and summary statistics with persistance data storage using *Room*. 
 
 
 
