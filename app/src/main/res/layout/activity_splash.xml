@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/lightLime"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.skyfishjy.library.RippleBackground
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ripple"
+            app:rb_color="@color/white"
+            app:rb_radius="32dp"
+            app:rb_rippleAmount="4"
+            app:rb_duration="2000"
+            app:rb_scale="6">
+        <ImageView
+                android:id="@+id/cart"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/shoppingcart"/>
+    </com.skyfishjy.library.RippleBackground>
+
+</LinearLayout>

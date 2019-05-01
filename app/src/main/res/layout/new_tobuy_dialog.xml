@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:padding="20dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:weightSum="3"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputLayout
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+            <EditText
+                    android:id="@+id/nameFill"
+                    android:text="@string/default_name"
+                    android:hint="@string/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+            <EditText
+                    android:id="@+id/priceFill"
+                    android:text="@string/default_price"
+                    android:hint="@string/price"
+                    android:inputType="number"
+                    android:layout_weight="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+                android:id="@+id/descriptionFill"
+                android:hint="@string/description"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:weightSum="3"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+        <Spinner
+                android:id="@+id/categorySelect"
+                android:entries="@array/item_categories"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+        </Spinner>
+
+        <CheckBox
+                android:text="@string/purchased"
+                android:id="@+id/statusSelect"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+
+    </LinearLayout>
+</LinearLayout>

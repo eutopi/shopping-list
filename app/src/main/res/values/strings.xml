@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+    <string name="dollar_sign">$</string>
+    <string-array name="item_categories">
+        <item>Food</item>
+        <item>Drink</item>
+        <item>Book</item>
+        <item>Electronic</item>
+    </string-array>
+    <string name="title_activity_summary">SummaryActivity</string>
+    <string name="preference_title">Item menu</string>
+    <string name="preference_subtitle">Click here to create new items, delete all items, and check item summary.
+    </string>
+    <string name="preference_KEY_OPEN">KEY_WAS_OPEN</string>
+    <string name="edit_item_dialog_tag">EDITITEMDIALOG</string>
+    <string name="add_item_dialog_tag">TAG_TOBUY_DIALOG</string>
+    <string name="amount_spent_txt">Amount spent:</string>
+    <string name="amount_to_spend_txt">Amount to spend:</string>
+    <string name="total_amount_txt">Total amount:</string>
+    <string name="piechart_caption">Drag to see amounts by category</string>
+    <string name="default_name">Apple</string>
+    <string name="name">Name</string>
+    <string name="price">Price</string>
+    <string name="default_price">10</string>
+    <string name="description">Description</string>
+    <string name="purchased">Purchased</string>
+    <string name="btn_edit_txt">Edit</string>
+    <string name="btn_delete_txt">Delete</string>
+    <string name="table_name">tobuy.db</string>
+    <string name="category_food">Food</string>
+    <string name="category_drink">Drink</string>
+    <string name="category_book">Book</string>
+    <string name="category_electronic">Electronic</string>
+    <string name="color_orange">#FE5F55</string>
+    <string name="color_light_magenta">#E63462</string>
+    <string name="color_lime">#C7EFCF</string>
+    <string name="color_yellow">#FFDB58</string>
+    <string name="summary_to_spend_label">Amount to spend: $</string>
+    <string name="summary_spent_label">Amount already spent: $</string>
+    <string name="summary_total_label">Total amount: $</string>
+</resources>
